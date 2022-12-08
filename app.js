@@ -3,42 +3,25 @@
 const months = prompt("Please, enter month of year");
 switch (months) {
   case "1":
-    alert("Winter");
-    break;
   case "2":
+  case "12":
     alert("Winter");
     break;
   case "3":
-    alert("Spring");
-    break;
   case "4":
-    alert("Spring");
-    break;
   case "5":
     alert("Spring");
     break;
   case "6":
-    alert("Summer");
-    break;
   case "7":
-    alert("Summer");
-    break;
   case "8":
     alert("Summer");
     break;
   case "9":
-    alert("Autumn");
-    break;
   case "10":
-    alert("Autumn");
-    break;
   case "11":
     alert("Autumn");
     break;
-  case "12":
-    alert("Winter");
-    break;
-
   default:
     alert("You enter incorrect data!");
     break;
